@@ -1,0 +1,563 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    overflow-x: hidden;
+
+}
+
+.saleoffer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+    background-color: #1D232C;
+    color: white;
+    height: 30px;
+    font-size: larger;
+    padding: 5px;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    position: sticky;
+    top: 0%;
+    background-color: #ffff;
+    z-index: 2;
+}
+
+.navbarlink {
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    margin-right: 50px;
+}
+
+.navbarlink a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbarlink a:hover {
+    border-bottom: 2px solid black;
+}
+
+.slider {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    height: 300px;
+    margin: 0px 20px;
+
+}
+
+.slidercontain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    left: 100px;
+    right: 100px;
+    color: white;
+    padding: 10px;
+}
+
+.sliderimage {
+    display: flex;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.sliderimage img {
+    height: 400px;
+
+
+}
+
+.slider-leftbutton {
+    position: absolute;
+    top: 35%;
+    left: 5%;
+
+}
+
+.slider-rightbutton {
+    position: absolute;
+    top: 35%;
+    right: 5%;
+
+}
+
+.slider-rightbutton i,
+.slider-leftbutton i {
+    color: white;
+    font-size: 100px;
+}
+
+.slidercontain button {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    color: #1D232C;
+}
+
+.brand-item img {
+    height: 60px;
+}
+
+.brand-heading {
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+.brand {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.brand-item p {
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.service {
+    margin-top: 30px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10px;
+
+}
+
+.service-foot {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.service1 {
+    background-color: #F2F4F7;
+    width: 300px;
+    height: 150px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.arrival-image img {
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.new-arrival {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 20px;
+    margin-top: 30px;
+
+}
+
+.arrival-image {
+    position: relative;
+
+}
+
+.overlay {
+    border-radius: 2%;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: 2;
+    top: 0;
+    opacity: 0.6;
+}
+
+
+
+.new-arrival button {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-top: 10px;
+    font-size: 1.2vw;
+    color: #1D232C;
+    border-radius: 10px;
+    position: absolute;
+    border: none;
+    top: 50%;
+    left: 18%;
+    z-index: 2;
+}
+
+
+.mostwanted-container img {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.mostwanted {
+    display: flex;
+    gap: 30px;
+    margin-left: 20px;
+    margin-top: 30px;
+    overflow-x: auto;
+
+}
+
+.mostwanted::-webkit-scrollbar {
+    display: none;
+}
+
+.sale-overlay {
+    position: relative;
+    bottom: 80%;
+    border: 2px solid red;
+    width: 50px;
+    padding: 10px;
+    background-color: red;
+    border-radius: 8px;
+}
+
+.salesimage {
+    width: 100%;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.singup {
+    display: flex;
+    align-items: center;
+}
+
+.news {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.newsinput {
+    width: 45%;
+    padding: 5px;
+    border: 2px solid black;
+}
+
+.news-container h2 {
+    font-size: 32px;
+    margin-top: 5px;
+
+}
+
+.news-container p,
+.news input {
+    margin-top: 5px;
+
+}
+
+.news button {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: black;
+    color: #ffff;
+    width: 150px;
+}
+
+.footer {
+    background-color: #1D232C;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    margin-top: 35px;
+    box-sizing: border-box;
+}
+
+.footer-box-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.footer-icon-container {
+    display: flex;
+    gap: 50px;
+
+}
+
+.footer-box-1 h2 {
+    margin-top: 10px;
+    margin-left: 5px;
+    font-size: 32px;
+}
+
+.subtitle {
+    margin-top: 10px;
+}
+
+.navbar-menu {
+    display: none;
+}
+
+@media screen and (max-width:600px) {
+    .navbar-menu {
+        display: block;
+    }
+
+    .navbarlink {
+        display: none;
+    }
+
+}
+
+.container {
+    display: flex;
+
+}
+
+.checkbox {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.searchbar1 {
+    border: 1px solid black;
+    margin-left: 250px;
+    width: 200%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+    border-radius: 20px;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.searchbar input {
+    border: none;
+    margin-left: 5px;
+}
+
+.product-container {
+    display: grid;
+    grid-template-columns: repeat(3, 210px);
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+    margin-top: 100px;
+    margin-right: 200px
+    
+}
+
+.product-container img {
+    width: 100%;
+}
+
+.contact-form {
+    background-color: #1D232C;
+    color: #dddddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 60vw;
+    margin: auto;
+    padding: 5vw;
+    padding-right: 10vw;
+    margin-top: 10px;
+}
+
+.contact-form h2 {
+    margin-bottom: 1vw;
+
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 1vw;
+
+}
+
+.contact-form input[type="text"],
+.contact-form textarea {
+    width: 100%;
+    padding: 2vw;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    margin-bottom: 1vw;
+    font-size: 1vw;
+
+}
+
+.contact-form textarea {
+    resize: vertical;
+    height: 10vh;
+}
+
+.contact-form input[type="submit"] {
+
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: #0056b3;
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.side-navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background-color: #1D232C;
+    color: #E2E1E1;
+    margin-left: -60%;
+    transition-duration: 1s;
+    z-index: 10;
+    padding: 20px;
+}
+
+.side-navbar-link {
+    margin-bottom: 30px;
+}
+
+.side-navbar-links a {
+    text-decoration: none;
+    color: #E2E1E1;
+}
+
+.side-navbar-links a:hover {
+    text-decoration: underline;
+    color: #E2E1E1;
+}
+
+
+@media screen and (max-width: 800px) {
+    .body {
+        font-size: 10px;
+    }
+
+    .slider-leftbutton i {
+        font-size: 75px;
+    }
+
+    .slider-rightbutton i {
+        font-size: 75px;
+    }
+
+    .brand {
+        padding: 10px;
+        display: flex;
+        flex-wrap: 1;
+    }
+
+    .brand-item img {
+        height: 30px;
+    }
+
+    .brand-item p {
+        font-size: 10px;
+        font-weight: 400;
+    }
+
+    .service1 {
+        background-color: #F2F4F7;
+        width: 175px;
+        height: 175px;
+        padding: 10px;
+        border-radius: 10px;
+        margin-top: 30px;
+    }
+
+    .arrival-image img {
+        height: 110px;
+        width: 110px;
+        border-radius: 10px;
+
+    }
+
+.service1 h4{
+    font-size: 12px;
+    font-weight: 600;
+}
+.service1 p{
+    font-size: 12px;
+    font-weight: 600;
+
+}
+.service-foot {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    padding: 5px;
+
+}
+.sliderimage img{
+    height: 250px;
+}
+.container {
+    display: flex;
+    gap: -100px;
+
+}
+
+.checkbox {
+    display: flex;
+    flex-direction: column;
+}
+
+.checkbox2 {
+    margin-top: 20px;
+    gap: 10px;
+    margin-left: 20px;
+}
+
+.checkbox3 {
+    margin-top: 20px;
+    gap: 10px;
+    margin-left: 10px;
+}
+
+.checkbox1 {
+    margin-top: 20px;
+    gap: 10px;
+    margin-left: 20px;
+}
+
+.vertical-line {
+    display: flex;
+    margin-left: 100px;
+    border: solid 1px black;
+}
+
+.searchbar1 {
+    border: 1px solid black;
+    margin-left: 250px;
+    width: 200%;
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    border-radius: 20px;
+    align-items: center;
+    padding: 10px;
+
+}
+}
